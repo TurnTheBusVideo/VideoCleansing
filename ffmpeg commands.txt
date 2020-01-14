@@ -1,0 +1,12 @@
+# to remove audio
+
+ffmpeg -i input.mp4 -vcodec copy -an no_audio.mp4
+
+# to extract audio
+
+ffmpeg -i input.mp4 org_audio.aac
+
+# Merge
+ffmpeg -i no_audio.mp4 -i org_audio.aac -c copy -shortest merged.mp4
+
+
