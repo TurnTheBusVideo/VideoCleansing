@@ -1,0 +1,16 @@
+{
+  "name": "ttb-video-denoising",
+  "version": "1.0.0",
+  "description": "Node.js based pipeline for extracting audio from uploaded video, denoising using RRNoise and adding denoised audio to original video for downstream consumption.",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf data/output/*; node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ffmpeg": "0.0.4",
+    "ffmpeg-extract-audio": "^1.0.2",
+    "rnnoise": "^0.1.8"
+  }
+}
