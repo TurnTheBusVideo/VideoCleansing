@@ -2,3 +2,4 @@
 scipy
 noisereduce
 numpy
+ffmpeg-python
