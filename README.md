@@ -2,7 +2,9 @@
 
 NoiseReduce package is producing promising result. Have a look at that folder..
 
-# Noise Reduction using NoiseReduce pip package. (https://pypi.org/project/noisereduce/)
+# Noise Reduction using python
+
+NoiseReduce pip package. (https://pypi.org/project/noisereduce/)
 https://github.com/timsainb/noisereduce
 
 This package uses signal process algorithm based on Fast Fourier transforms to denoise the audio signal.
